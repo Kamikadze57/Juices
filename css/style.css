@@ -1,0 +1,51 @@
+:root {
+    --accent-color: #779611;
+    --main-color: #000;
+    --add-color: #707070;
+}
+body {
+    font-family: Montserat;
+    background-color: #F9F9F9;
+}
+.header, .hero, .shop, .about {
+    border-bottom: 2px solid var(--accent-color);
+}
+.logo {
+    font-family: Exo2;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+.nav-link {
+    font-size: 20px;
+    color: var(--add-color);
+}
+.hero-title {
+    color: var(--accent-color);
+    font-family: Exo2;
+    font-weight: 600;
+}
+.hero-btn {
+    padding: 18px 70px;
+    background-color: var(--accent-color);
+    border: none;
+}
+.shop-title {
+    color: var(--accent-color);
+    font-family: Exo2;
+    font-weight: 600;
+}
+.card {
+    background-color: transparent;
+}
+.card-title {
+    color: var(--accent-color);
+}
+.about-subtitle {
+    color: var(--accent-color);
+    font-family: Exo2;
+}
+.about-title {
+    color: var(--accent-color);
+    font-family: Exo2;
+    font-weight: 600;
+}
